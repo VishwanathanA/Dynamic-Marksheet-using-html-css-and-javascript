@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marksheet</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container-fluid">
+    <header>
+        <ul>
+            <li><b>Sr.No : </b> <span>00000000</span></li>
+            <li><img src="image/logo.webp" alt="logo"></li>
+            <li><img src="image/frame.png" alt="Qr Code" class="qr"></li>
+        </ul>
+    </header>
+    <h2>Hindusthan College Of Engineering and Technology</h2>
+    <h3>An Autonomous institution affiliated by Anna University</h3>
+    <h1>Semester Marksheet</h1>
+    <table style="margin: 10px 0px;">
+        <tr>
+            <th colspan="2" style="width: 50%;"> <h5>Name of the candidate </h5>Vishwanathan A</th>
+            <th style="width: 50%;"><h5>Course name with code </h5><h6>Bachelor of Technology Information Technology</h6><h6>BP162 </h6></th>
+        </tr>
+        <tr>
+            <td><h5>Reg No</h5>
+                <h6>720721110055</h6></td>
+            <td><h5>Enrollment No</h5>
+                <h6>3792320745</h6></td>
+            <td><h5>Authorized Training Center Name with Code</h5>
+                <h6>Hindusthan College Of Engineering and Technology <br>7207</h6></td>
+        </tr>
+    </table>
+    <table style="margin: 10px 0px 0px;">
+        <thead>
+            <tr>
+                <th rowspan="2" style="width: 25%;"><h5>Subject code</h5></th>
+                <th rowspan="2" style="width: 25%;text-align: left;"><h5>Subject Name</h5></th>
+                <th rowspan="2" style="width: 10%;">Max. Marks</th>
+                <th colspan="3">Marks Obtained in Figures</th>
+                <th rowspan="2">Total in Words</th>
+            </tr>
+            <tr>
+                <th>Theory</th>
+                <th>Practical</th>
+                <th>Total</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><h6>21IT5000</h6></td>
+                <td style="text-align: left;"><h6>Computer Networks</h6></td>
+                <td><h6>100</h6></td>
+                <td><input type="number" id="theory1" class="theory"></td>
+                <td><h6>xx</h6></td>
+                <td><span id="total1" class="total"></span></td>
+                <td><span id="words1" class="words"></span></td>
+            </tr>
+            <tr>
+                <td><h6>21IT5001</h6></td>
+                <td style="text-align: left;"><h6>Java programming</h6></td>
+                <td><h6>100</h6></td>
+                <td><input type="number" id="theory2" class="theory"></td>
+                <td><h6>xx</h6></td>
+                <td><span id="total2" class="total"></span></td>
+                <td><span id="words2" class="words"></span></td>
+            </tr>
+            <tr>
+                <td><h6>21IT5002</h6></td>
+                <td style="text-align: left;"><h6>RDBMS</h6></td>
+                <td><h6>100</h6></td>
+                <td><input type="number" id="theory3" class="theory"></td>
+                <td><h6>xx</h6></td>
+                <td><span id="total3" class="total"></span></td>
+                <td><span id="words3" class="words"></span></td>
+            </tr>
+            <tr>
+                <td><h6>21IT5003</h6></td>
+                <td style="text-align: left;"><h6>Data structure</h6></td>
+                <td><h6>100</h6></td>
+                <td><input type="number" id="theory4" class="theory"></td>
+                <td><h6>xx</h6></td>
+                <td><span id="total4" class="total"></span></td>
+                <td><span id="words4" class="words"></span></td>
+            </tr>
+            <tr>
+                <td><h6>21IT5004</h6></td>
+                <td style="text-align: left;"><h6>Cognos BI</h6></td>
+                <td><h6>100</h6></td>
+                <td><input type="number" id="theory5" class="theory"></td>
+                <td><h6>xx</h6></td>
+                <td><span id="total5" class="total"></span></td>
+                <td><span id="words5" class="words"></span></td>
+            </tr>
+            <tr>
+                <td><h6>21IT5010</h6></td>
+                <td style="text-align: left;"><h6>Java lab</h6></td>
+                <td><h6>100</h6></td>
+                <td><input type="number" id="theory6" class="theory"></td>
+                <td><h6>xx</h6></td>
+                <td><span id="total6" class="total"></span></td>
+                <td><span id="words6" class="words"></span></td>
+            </tr>
+            <tr>
+                <td><h6>21IT5020</h6></td>
+                <td style="text-align: left;"><h6>Cognos BI lab</h6></td>
+                <td><h6>100</h6></td>
+                <td><h6>xx</h6></td>
+                <td><input type="number" id="theory7" class="theory"></td>
+                <td><span id="total7" class="total"></span></td>
+                <td><span id="words7" class="words"></span></td>
+            </tr>
+            <tr>
+                <td><h6>21IT5030</h6></td>
+                <td style="text-align: left;"><h6>RDBMS lab</h6></td>
+                <td><h6>100</h6></td>
+                <td><h6>xx</h6></td>
+                <td><input type="number" id="theory8" class="theory"></td>
+                <td><span id="total8" class="total"></span></td>
+                <td><span id="words8" class="words"></span></td>
+            </tr>
+            <tr>
+                <td colspan="7" style="text-align:left"><h5>Grand Total : <span id="overalltotal"></span></h5><h5>In words : <span id="overalltotalword"></span></h5></td>
+            </tr>
+        </tbody>
+    </table>
+    <table>
+        <tr>
+            <th><h5>Month and Year of Examination</h5></th>
+            <th><h5>No. of Subject Offered</h5></th>
+            <th><h5>Result</h5></th>
+            <th><h5>Percentage</h5></th>
+            <th><h5>Grade</h5></th>
+        </tr>
+        <tr>
+            <td><h6>May 2024</h6></td>
+            <td><h6>T5+P2=7</h6></td>
+            <td><h6 id="result"></h6></td>
+            <td><h6 id="percentage"></h6></td>
+            <td><h6 id="grade"></h6></td>
+        </tr>
+    </table>
+    <div class="foot" style="text-align: center;">
+        <div><h5>Date : <span style="color: black;">(15-08-2024)</span></h5></div>
+        <div>
+            <h6>(Signature of COE)</h6>
+            <h5>Deputy controller of Examination</h5>
+        </div>
+    </div>
+    <h5 style="text-align: center;">Subject marked with * indicate Exemption</h5>
+    </div>
+</body>
+</html>
