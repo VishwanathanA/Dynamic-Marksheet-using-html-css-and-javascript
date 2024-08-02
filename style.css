@@ -57,6 +57,9 @@ input{
     border: none;
     width: 60px;
 }
+input:focus{
+    outline:none;
+}
 .foot{
     display: flex;
     justify-content: space-between;
