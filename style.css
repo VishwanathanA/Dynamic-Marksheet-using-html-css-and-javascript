@@ -56,7 +56,7 @@ table span{
 input{
     border: none;
     width: 60px;
-    text-align: center;
+    text-align:center;
 }
 input:focus{
     outline:none;
