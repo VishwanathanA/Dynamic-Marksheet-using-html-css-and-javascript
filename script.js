@@ -16,15 +16,14 @@ document.addEventListener('DOMContentLoaded', function () {
 
         theoryInputs.forEach((input, index) => {
             const theoryValue = parseFloat(input.value) || 0;
-            const practicalValue = parseFloat(practicalInputs[index]?.value) || 0;
-            const totalValue = theoryValue + practicalValue;
+            const totalValue = theoryValue;
 
             totalSpans[index].textContent = totalValue;
             wordsSpans[index].textContent = numberToWords(totalValue);
 
             grandTotal += totalValue;
             totalMaxMarks += 100;
-            if (theoryValue < 40 || practicalValue < 40) {
+            if (theoryValue < 50 ) {
                 passed = false;
             }
         });
